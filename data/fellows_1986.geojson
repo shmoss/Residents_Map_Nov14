@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "",
+        "info_city": "Kamogawa City",
+        "info_state": "",
+        "info_zip": "",
+        "info_country": "Japan",
+        "info_notes": "",
+        "info_lastName": "Kikuchi",
+        "info_maidenName": "",
+        "info_firstName": "Yoichi",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1986,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.0772705,
+          36.2816467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1560 E 1850S",
+        "info_city": "Saint George",
+        "info_state": "UT",
+        "info_zip": 84790,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Montague",
+        "info_maidenName": "",
+        "info_firstName": "Terry",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1986,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.55027,
+          37.075939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "518 Black Bear Loop NE",
+        "info_city": "Albuquerque",
+        "info_state": "NM",
+        "info_zip": 87122,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Rosenberg",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1986,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.4908981,
+          35.179409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1301 Hammock Way",
+        "info_city": "Lancaster",
+        "info_state": "PA",
+        "info_zip": 17601,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Smith",
+        "info_maidenName": "",
+        "info_firstName": "Peter",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1986,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3714523,
+          40.0674782
+        ]
+      }
+    }
+  ]
+}

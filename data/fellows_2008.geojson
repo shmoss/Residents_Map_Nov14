@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "740 S Limestone St",
+        "info_city": "Lexington",
+        "info_state": "KY",
+        "info_zip": 40536,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ayoob",
+        "info_maidenName": "",
+        "info_firstName": "Andres",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "University of Kentucky",
+        "info_position": "Assistant Professor",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50857,
+          38.0341369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "109 Faircrest Court",
+        "info_city": "Verona",
+        "info_state": "WI",
+        "info_zip": 53593,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Chen",
+        "info_maidenName": "",
+        "info_firstName": "(Ping-Sun) Keven",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5327364,
+          42.9757603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1000 Mineral Point Ave",
+        "info_city": "Janesville",
+        "info_state": "WI",
+        "info_zip": 53548,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ehrhardt",
+        "info_maidenName": "",
+        "info_firstName": "Jonathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0325084,
+          42.6868106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "101 N Adams Avenue",
+        "info_city": "Marshfield",
+        "info_state": "WI",
+        "info_zip": 54449,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Musack",
+        "info_maidenName": "",
+        "info_firstName": "Randy",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1898346,
+          44.6713371
+        ]
+      }
+    }
+  ]
+}

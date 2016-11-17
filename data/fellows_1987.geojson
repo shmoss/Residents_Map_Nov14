@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "413 Rawlins Dr",
+        "info_city": "Waukesha",
+        "info_state": "WI",
+        "info_zip": 53188,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Bernstein",
+        "info_maidenName": "",
+        "info_firstName": "Matt",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Mayo Clinic",
+        "info_position": "Professor",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1987,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2684174,
+          43.0081482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1163 Country Club Rd",
+        "info_city": "Monongahela",
+        "info_state": "PA",
+        "info_zip": 15063,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Wilson",
+        "info_maidenName": "",
+        "info_firstName": "Douglas",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Monongahela Valley Hospital",
+        "info_position": "Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1987,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9163277,
+          40.1821209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1509 Alpine Pass",
+        "info_city": "Golden Valley",
+        "info_state": "MN",
+        "info_zip": 55416,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Pollock",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "fac",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1987,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3319168,
+          44.9675484
+        ]
+      }
+    }
+  ]
+}

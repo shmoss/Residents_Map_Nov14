@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "16626 Jackson St.",
+        "info_city": "Omaha",
+        "info_state": "NE",
+        "info_zip": 68118,
+        "info_country": "",
+        "info_notes": "Listed as \"corresponding retired member\"",
+        "info_lastName": "Canaday",
+        "info_maidenName": "",
+        "info_firstName": "Peter",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1997,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.1743546,
+          41.2529144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "622 N. East Ave",
+        "info_city": "Oak Park",
+        "info_state": "IL",
+        "info_zip": 60302,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Garofalo",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1997,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7893906,
+          41.8971481
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+info_latitude,info_longitude,info_address,info_city,info_state,info_zip,info_country,info_notes,info_lastName,info_maidenName,info_firstName,info_middleName,info_intern,info_resident,info_fellow,info_fellowshipSection,info_honoraryFellow,info_formerFaculty,info_facultySection,info_residencyBegin,info_residencyEnd,info_fellowshipBegin,info_fellowshipEnd,info_institution,info_position,info_count,info_resDate,info_felDate,info_date,info_status
+40.6090012,-89.4547424,215 Rassi Avenue,Morton,IL,61550,,,Johnson,,Bradley,,,,f,,,,,,,,,,,1,1900,1900,2002,f
+43.1297264,-89.3821411,1005 Woodward Dr,Madison,WI,53704,,,Monat,,Eric,,,,f,,,,,,,,,,,1,1900,1900,2002,f
+43.4708366,-111.9964066,2938 Balboa Drive,Idaho Falls,ID,83404,,,Vance,,Peter,,,,f,,,,,,,,,,,1,1900,1900,2002,f
+41.483532,-87.033432,1808 Peachtree,Valparaiso,IN,46383,,,Pillai,,Krishna,,,,f,,,fac,Community Radiology,,,,,,,1,1900,1900,2002,f
+35.0935707,-106.5559998,8020 Constitution Pl NE,Albuquerque,NM,87110,,,Brooks,,Gregory,,,r,f,Thoracic,,fac,Thoracic Imaging,6/24/1997,6/30/2002,,,X-Ray Associates of New Mexico,Thoracic Radiology,1,2002,1900,2002,rffac

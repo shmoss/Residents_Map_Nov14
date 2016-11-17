@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "500 South Ocean Blvd",
+        "info_city": "Boca Raton",
+        "info_state": "FL",
+        "info_zip": 33432,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Glazer",
+        "info_maidenName": "",
+        "info_firstName": "Jonathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "University MRI",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0718231,
+          26.3449841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6488 Pebble Point Ct.",
+        "info_city": "Newburgh",
+        "info_state": "IN",
+        "info_zip": 47630,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hoagland",
+        "info_maidenName": "",
+        "info_firstName": "Lee",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Evansville Radiology, PC",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3715515,
+          37.9403305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2299 Carter Caves Road",
+        "info_city": "Olive Hill",
+        "info_state": "KY",
+        "info_zip": 41164,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lewis",
+        "info_maidenName": "",
+        "info_firstName": "William",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "St. Claire Regional Med Ctr",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1033554,
+          38.3670273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "918 Tenth Ave",
+        "info_city": "Huntington",
+        "info_state": "WV",
+        "info_zip": 25701,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Macatol",
+        "info_maidenName": "",
+        "info_firstName": "M. Christopher",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "King's Daughters Medical Center",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4411206,
+          38.4124672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1817 Waterbend Drive",
+        "info_city": "Verona",
+        "info_state": "WI",
+        "info_zip": 53593,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Wood",
+        "info_maidenName": "",
+        "info_firstName": "David",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2002",
+        "info_residencyEnd": "6/30/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5354767,
+          43.033226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1906 Belleview Avenue",
+        "info_city": "Roanoke",
+        "info_state": "VA",
+        "info_zip": 24014,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Albert",
+        "info_maidenName": "",
+        "info_firstName": "Philip",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "fac",
+        "info_facultySection": "Community Radiology",
+        "info_residencyBegin": "8/1/2003",
+        "info_residencyEnd": "7/31/2004",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Carilion Clinic Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2004,
+        "info_felDate": 1900,
+        "info_date": 2004,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9412537,
+          37.2512856
+        ]
+      }
+    }
+  ]
+}

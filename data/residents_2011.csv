@@ -1,0 +1,3 @@
+info_latitude,info_longitude,info_address,info_city,info_state,info_zip,info_country,info_notes,info_lastName,info_maidenName,info_firstName,info_middleName,info_intern,info_resident,info_fellow,info_fellowshipSection,info_honoraryFellow,info_formerFaculty,info_facultySection,info_residencyBegin,info_residencyEnd,info_fellowshipBegin,info_fellowshipEnd,info_institution,info_position,info_count,info_resDate,info_felDate,info_date,info_status
+42.3359462,-71.1075349,75 Francis St.,Boston,MA,2115,,,O'Connor,,Stacy,,,r,,,,,,7/1/2007,6/30/2011,,,Brigham and Women's Hospital,,1,2011,1900,2011,r
+33.4889755,-111.9260294,3501 N Scottsdale Rd,Scottsdale,AZ,85251,,,Wise,,Steven,,,r,,,,,,7/1/2007,6/30/2011,,,Scottsdale Medical Imaging LTD,Neuroradiology,1,2011,1900,2011,r

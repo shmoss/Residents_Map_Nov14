@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "8990 Springbrook Dr NW",
+        "info_city": "Coon Rapids",
+        "info_state": "MN",
+        "info_zip": 55433,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Henseler",
+        "info_maidenName": "",
+        "info_firstName": "Kevin",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1998",
+        "info_residencyEnd": "6/30/2002",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Johns Hopkins University",
+        "info_position": "Interventional Fellowship",
+        "info_count": 1,
+        "info_resDate": 2002,
+        "info_felDate": 1900,
+        "info_date": 2002,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.274437,
+          45.134594
+        ]
+      }
+    }
+  ]
+}

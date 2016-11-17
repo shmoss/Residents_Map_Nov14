@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1907 E. McNair Dr",
+        "info_city": "Tempe",
+        "info_state": "AZ",
+        "info_zip": 85283,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Sewall",
+        "info_maidenName": "",
+        "info_firstName": "Luke",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1993,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.90673,
+          33.35054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "234 Goodman St",
+        "info_city": "Cincinnati",
+        "info_state": "OH",
+        "info_zip": 45267,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Collins",
+        "info_maidenName": "",
+        "info_firstName": "Jannette",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "fac",
+        "info_facultySection": "Breast Imaging, Thoracic Imaging",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1993,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5012375,
+          39.1366824
+        ]
+      }
+    }
+  ]
+}

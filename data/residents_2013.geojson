@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "9601 Townline Rd.",
+        "info_city": "Minocqua",
+        "info_state": "WI",
+        "info_zip": 54548,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Boyum",
+        "info_maidenName": "",
+        "info_firstName": "James",
+        "info_middleName": "H",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2009",
+        "info_residencyEnd": "6/30/2013",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Marshfield Clinic",
+        "info_position": "Body Imaging",
+        "info_count": 1,
+        "info_resDate": 2013,
+        "info_felDate": 1900,
+        "info_date": 2013,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.7113266,
+          45.8896027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "600 N. Wolfe Street",
+        "info_city": "Baltimore",
+        "info_state": "MD",
+        "info_zip": 21287,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Obadina",
+        "info_maidenName": "",
+        "info_firstName": "Eniola",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2009",
+        "info_residencyEnd": "6/30/2013",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "The Johns Hopkins Hopsital",
+        "info_position": "Breast Imaging, Diagnostic Radiology",
+        "info_count": 1,
+        "info_resDate": 2013,
+        "info_felDate": 1900,
+        "info_date": 2013,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5908868,
+          39.2975345
+        ]
+      }
+    }
+  ]
+}

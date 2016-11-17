@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2900 W. Oklahoma Avenue",
+        "info_city": "Milwaukee",
+        "info_state": "WI",
+        "info_zip": 53215,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Amoli",
+        "info_maidenName": "",
+        "info_firstName": "Sean",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Milwaukee Radiologists LTD SC, St. Luke's Medical Center - Milwaukee",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9516296,
+          42.9903679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "700 S Park St",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53715,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Bogdanowicz",
+        "info_maidenName": "",
+        "info_firstName": "Marta",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Madison Radiologists",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.401512,
+          43.059272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1314 Stone Meadow Way West",
+        "info_city": "Springfield",
+        "info_state": "MO",
+        "info_zip": 65810,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Coburn",
+        "info_maidenName": "",
+        "info_firstName": "Mark",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3122253,
+          37.1214333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2725 West Canyon Ave ",
+        "info_city": "San Diego",
+        "info_state": "CA",
+        "info_zip": 92123,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Gurney",
+        "info_maidenName": "",
+        "info_firstName": "Jonathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1182865,
+          32.7993507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1216 Caryn Terrace",
+        "info_city": "Northbrook",
+        "info_state": "IL",
+        "info_zip": 60062,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Kalmar",
+        "info_maidenName": "",
+        "info_firstName": "Frank",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8135529,
+          42.1306419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "50619 Lakeside Drive",
+        "info_city": "Granger",
+        "info_state": "IN",
+        "info_zip": 46530,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lamont",
+        "info_maidenName": "",
+        "info_firstName": "Allison",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2000,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1493378,
+          41.7585487
+        ]
+      }
+    }
+  ]
+}

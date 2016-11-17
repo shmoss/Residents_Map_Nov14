@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "510 S Kingshighway Blvd",
+        "info_city": "St. Louis",
+        "info_state": "MO",
+        "info_zip": 63110,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Potretzke",
+        "info_maidenName": "",
+        "info_firstName": "Theodora",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2009",
+        "info_residencyEnd": "6/30/2014",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Mallinckrodt Institute of Radiology",
+        "info_position": "Abdominal Imaging",
+        "info_count": 1,
+        "info_resDate": 2014,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2660832,
+          38.6361802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "9200 W Wisconsin Avenue",
+        "info_city": "Milwaukee",
+        "info_state": "WI",
+        "info_zip": 53226,
+        "info_country": "",
+        "info_notes": "Only places with his name are a legacy U of Wash. page and all the rest still have him at UW. Provider ID not updated since he left here, not in Termed Files",
+        "info_lastName": "Quinet",
+        "info_maidenName": "",
+        "info_firstName": "Stephen",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2010",
+        "info_residencyEnd": "6/30/2014",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2014,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0264893,
+          43.0386734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1000 Mineral Point Ave",
+        "info_city": "Janesville",
+        "info_state": "WI",
+        "info_zip": 53548,
+        "info_country": "",
+        "info_notes": "Unable to find updated work address",
+        "info_lastName": "Thomas",
+        "info_maidenName": "",
+        "info_firstName": "Jacob",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2010",
+        "info_residencyEnd": "6/30/2014",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Mercy Health System",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2014,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0325084,
+          42.6868106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "300 Pasteur Drive",
+        "info_city": "Stanford",
+        "info_state": "CA",
+        "info_zip": 94035,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Xu",
+        "info_maidenName": "",
+        "info_firstName": "Guofan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2011",
+        "info_residencyEnd": "6/30/2014",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Stanford Hospital And Clinics",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2014,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.174469,
+          37.4347878
+        ]
+      }
+    }
+  ]
+}

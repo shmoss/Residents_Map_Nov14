@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "551 N. Hillside",
+        "info_city": "Wichita",
+        "info_state": "KS",
+        "info_zip": 67214,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ahlstrand",
+        "info_maidenName": "",
+        "info_firstName": "Richard",
+        "info_middleName": "A",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1968",
+        "info_residencyEnd": "6/30/1971",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Wichita Radiological Group",
+        "info_position": "Diagnostic Radiologist",
+        "info_count": 1,
+        "info_resDate": 1971,
+        "info_felDate": 1900,
+        "info_date": 1971,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.299469,
+          37.6970139
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "55 Sunbridge",
+        "info_city": "Fayetteville",
+        "info_state": "AR",
+        "info_zip": 72703,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Branch",
+        "info_maidenName": "Hardin",
+        "info_firstName": "L. Vanessa",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2010",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Medical Associates of Northwest Arkansas (MANA) Imaging",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1581573,
+          36.0976295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "225 South Center Avenue",
+        "info_city": "Somerset",
+        "info_state": "PA",
+        "info_zip": 15501,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Chuang",
+        "info_maidenName": "",
+        "info_firstName": "William",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "ENIN",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "9/1/2011",
+        "info_fellowshipEnd": "8/31/2012",
+        "info_institution": "Somerset Hospital",
+        "info_position": "Chief of Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0774918,
+          40.0070419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "166 4th St. E",
+        "info_city": "St Paul",
+        "info_state": "MN",
+        "info_zip": 55101,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Gilloon",
+        "info_maidenName": "",
+        "info_firstName": "Benjamin",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "St. Paul Radiology",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0881424,
+          44.9472961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "50 N. Medical Dr",
+        "info_city": "Salt Lake City",
+        "info_state": "UT",
+        "info_zip": 84132,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Jensen",
+        "info_maidenName": "",
+        "info_firstName": "Leif",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Thoracic Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "University of Utah Health Care",
+        "info_position": "Assistant Professor, Thoracic and Cardiac Imaging",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8369103,
+          40.7729854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "601 S Center Ave",
+        "info_city": "Merrill",
+        "info_state": "WI",
+        "info_zip": 54452,
+        "info_country": "",
+        "info_notes": "cannot locate current info. Fletcher Allen Health Care does not list her.",
+        "info_lastName": "Johnson",
+        "info_maidenName": "",
+        "info_firstName": "Alisa",
+        "info_middleName": "K",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Good Samaritan Hospital",
+        "info_position": "Breast Imaging",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.681762,
+          45.175567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6702 S. Shelby Ridge",
+        "info_city": "Spokane",
+        "info_state": "WA",
+        "info_zip": 99224,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "King",
+        "info_maidenName": "",
+        "info_firstName": "Scott",
+        "info_middleName": "N",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Inland Imaging Associates, P.S.",
+        "info_position": "Diagnostic Radiology, Abdominal and Emergency Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.419632,
+          47.5927849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "166 4th St. East",
+        "info_city": "St Paul",
+        "info_state": "MN",
+        "info_zip": 55101,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ludeman",
+        "info_maidenName": "",
+        "info_firstName": "Lucas",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "St Paul Radiology",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0881424,
+          44.9472961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "801 S Stevens St",
+        "info_city": "Spokane",
+        "info_state": "WA",
+        "info_zip": 99204,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Nackos",
+        "info_maidenName": "",
+        "info_firstName": "Jeffrey",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Inland Imaging Specialists",
+        "info_position": "Radiology - MRI",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4192672,
+          47.6487941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1214 Spring St",
+        "info_city": "Jeffersonville",
+        "info_state": "IN",
+        "info_zip": 47130,
+        "info_country": "",
+        "info_notes": "No longer listed on http://www.professionalradiology.com/pages/physicians/default/32/, last address I could find",
+        "info_lastName": "Nett",
+        "info_maidenName": "",
+        "info_firstName": "Matthew",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Professional Radiology, Inc",
+        "info_position": "Diagnostic Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.747322,
+          38.282554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2215 Fuller Rd",
+        "info_city": "Ann Arbor",
+        "info_state": "MI",
+        "info_zip": 48105,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ruma",
+        "info_maidenName": "",
+        "info_firstName": "Julie",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "VA Ann Arbor Healthcare System",
+        "info_position": "Radiology - Abdominal Imaging",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7153625,
+          42.2865448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "644 W Willow St.",
+        "info_city": "Chicago",
+        "info_state": "IL",
+        "info_zip": 60614,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Rusinak",
+        "info_maidenName": "",
+        "info_firstName": "David",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6453857,
+          41.9141045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "501 N 87th St.",
+        "info_city": "Omaha",
+        "info_state": "NE",
+        "info_zip": 68114,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Yarlagadda",
+        "info_maidenName": "",
+        "info_firstName": "Rajkumar",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Diagnostic Radiology P.C.",
+        "info_position": "Nuclear Medicine/PT",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0470505,
+          41.2638359
+        ]
+      }
+    }
+  ]
+}

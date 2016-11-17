@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1000 N. Oak Ave",
+        "info_city": "Marshfield",
+        "info_state": "WI",
+        "info_zip": 54449,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Guite",
+        "info_maidenName": "",
+        "info_firstName": "Kristie",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2014",
+        "info_fellowshipEnd": "6/30/2015",
+        "info_institution": "Marshfield Clinic",
+        "info_position": "Pricate Practice - Breast Imaging Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2015,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.177948,
+          44.6785164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "",
+        "info_city": "Hamburg",
+        "info_state": "",
+        "info_zip": "",
+        "info_country": "Germany",
+        "info_notes": "",
+        "info_lastName": "Bannas",
+        "info_maidenName": "",
+        "info_firstName": "Peter",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Research Fellow",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Klinik und Poliklinik f�r Diagnostische und Interventionelle�Radiologie, Zentrum f�r Radiologie und Endoskopie",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9924698,
+          53.5533409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "601 N. Caroline St.",
+        "info_city": "Baltimore",
+        "info_state": "MD",
+        "info_zip": 21287,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Woods",
+        "info_maidenName": "",
+        "info_firstName": "Ryan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "John's Hopkins Hospital",
+        "info_position": "Assistant Professor of Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5974743,
+          39.2973299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2900 W. Oklahoma Ave",
+        "info_city": "Milwaukee",
+        "info_state": "WI",
+        "info_zip": 53215,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Marinelli",
+        "info_maidenName": "",
+        "info_firstName": "Nicholas",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Aurora Medical Group Imaging Services",
+        "info_position": "Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9516296,
+          42.9903679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2202 South Cedar Street",
+        "info_city": "Tacoma",
+        "info_state": "WA",
+        "info_zip": 98405,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Linville",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Tacoma Radiology Associates",
+        "info_position": "Interventional Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4769211,
+          47.2380142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "250 Mercy Dr.",
+        "info_city": "Dubuque",
+        "info_state": "IA",
+        "info_zip": 52001,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Knudtson",
+        "info_maidenName": "",
+        "info_firstName": "Tom",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Mercy Radiologists of Dubuque",
+        "info_position": "Diagnostic Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6728435,
+          42.4918952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1101 W. University Dr.",
+        "info_city": "Rochester Hills",
+        "info_state": "MI",
+        "info_zip": 48307,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hall",
+        "info_maidenName": "",
+        "info_firstName": "Neal",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Crittenton Hospital Medical Center",
+        "info_position": "Magnetic Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.149903,
+          42.681697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "11111 S 84th St",
+        "info_city": "Papillion",
+        "info_state": "NE",
+        "info_zip": 68046,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Dekarske",
+        "info_maidenName": "",
+        "info_firstName": "Adrienne",
+        "info_middleName": "S.",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Nebraska Iowa Radiology Consultants",
+        "info_position": "Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.0407944,
+          41.1359329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "12554 Riata Vista Cir",
+        "info_city": "Austin",
+        "info_state": "TX",
+        "info_zip": 78727,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Dale",
+        "info_maidenName": "",
+        "info_firstName": "Jarrod",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Austin Radiological Association",
+        "info_position": "Musculoskeletal Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2015,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7384109,
+          30.4309311
+        ]
+      }
+    }
+  ]
+}

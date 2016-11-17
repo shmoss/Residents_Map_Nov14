@@ -1,0 +1,325 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "600 Highland Ave",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53792,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Battino",
+        "info_maidenName": "",
+        "info_firstName": "Gillian",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4290999,
+          43.076085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "96 Jonathan Lucas St. ",
+        "info_city": "Charleston",
+        "info_state": "SC",
+        "info_zip": 29425,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Chaudry",
+        "info_maidenName": "",
+        "info_firstName": "M. Imran",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "9/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9485826,
+          32.7847508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "47 New Scotland Ave",
+        "info_city": "Albany",
+        "info_state": "NY",
+        "info_zip": 12208,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Cousins",
+        "info_maidenName": "",
+        "info_firstName": "Joseph",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Advanced Diagnostic Imaging",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7761307,
+          42.6533127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "800 W Randol Mill Rd",
+        "info_city": "Arlington",
+        "info_state": "TX",
+        "info_zip": 76012,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Huff",
+        "info_maidenName": "",
+        "info_firstName": "Joshua",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1160431,
+          32.75
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5241 Teaberry Lane",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53711,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Meiners",
+        "info_maidenName": "",
+        "info_firstName": "Ryan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4010319,
+          43.0087837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1900 Cedarwood Trail",
+        "info_city": "Belleville",
+        "info_state": "IL",
+        "info_zip": 62226,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Schroeder",
+        "info_maidenName": "",
+        "info_firstName": "Paul",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.9619522,
+          38.565464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2894 Brian Lane",
+        "info_city": "Fitchburg",
+        "info_state": "WI",
+        "info_zip": 53711,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Shadid",
+        "info_maidenName": "",
+        "info_firstName": "Anthony",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4366226,
+          43.0126343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2120 N Mays St ",
+        "info_city": "Round Rock",
+        "info_state": "TX",
+        "info_zip": 78664,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Williams",
+        "info_maidenName": "",
+        "info_firstName": "John",
+        "info_middleName": "G",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Austin Radiological Association",
+        "info_position": "Diagnostic Radiologist",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 1900,
+        "info_date": 2007,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6890886,
+          30.5306156
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "640 2nd Ave E",
+        "info_city": "Kalispell",
+        "info_state": "MT",
+        "info_zip": 59901,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Cantrell",
+        "info_maidenName": "",
+        "info_firstName": "Nick",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2008",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 1900,
+        "info_date": 2009,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3086853,
+          48.1925163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "11571 Cedar Pass",
+        "info_city": "Minnetonka",
+        "info_state": "MN",
+        "info_zip": 55305,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Inampudi",
+        "info_maidenName": "",
+        "info_firstName": "Radha",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2009,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.4269028,
+          44.9547005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1946 Portsmouth Ave",
+        "info_city": "Westchester",
+        "info_state": "IL",
+        "info_zip": 60154,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lafita",
+        "info_maidenName": "",
+        "info_firstName": "Vaishali Soneji",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2008",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 1900,
+        "info_date": 2009,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8736343,
+          41.8511314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5309 Musket Ridge",
+        "info_city": "Austin",
+        "info_state": "TX",
+        "info_zip": 78759,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Meisamy",
+        "info_maidenName": "",
+        "info_firstName": "Sina",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2008",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "RadMedX PA, LLC",
+        "info_position": "MR Division",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 1900,
+        "info_date": 2009,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7591248,
+          30.3962784
+        ]
+      }
+    }
+  ]
+}

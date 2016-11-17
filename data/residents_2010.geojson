@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2435 Fairdale Avenue",
+        "info_city": "Casper",
+        "info_state": "WY",
+        "info_zip": 82601,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Cubin",
+        "info_maidenName": "",
+        "info_firstName": "Frederick (Eric)",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2005",
+        "info_residencyEnd": "6/30/2010",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2010,
+        "info_felDate": 1900,
+        "info_date": 2010,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3071976,
+          42.8236084
+        ]
+      }
+    }
+  ]
+}

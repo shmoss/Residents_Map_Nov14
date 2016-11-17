@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2316 East Meyer Boulevard",
+        "info_city": "Kansas City",
+        "info_state": "MO",
+        "info_zip": 64132,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Bhargava",
+        "info_maidenName": "",
+        "info_firstName": "Neil",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "HCA Midwest Health",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5595944,
+          39.0071766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "114 W Stratford Dr",
+        "info_city": "Peoria",
+        "info_state": "IL",
+        "info_zip": 61614,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Buczyna",
+        "info_maidenName": "",
+        "info_firstName": "John",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "CIRA Radiology",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5947495,
+          40.7323532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3181 SW Sam Jackson Park Rd",
+        "info_city": "Portland",
+        "info_state": "OR",
+        "info_zip": 97239,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Foss",
+        "info_maidenName": "",
+        "info_firstName": "Erik",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6856537,
+          45.4988098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2401 S 31st St",
+        "info_city": "Temple",
+        "info_state": "TX",
+        "info_zip": 76508,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Gerdes",
+        "info_maidenName": "",
+        "info_firstName": "Clint",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "10/24/2005",
+        "info_residencyEnd": "10/23/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3603058,
+          31.0840549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "900 CATON AVE",
+        "info_city": "BALTIMORE",
+        "info_state": "MD",
+        "info_zip": 21229,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Husain",
+        "info_maidenName": "",
+        "info_firstName": "Syed Hamid",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6731033,
+          39.2715874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "333 Pine Ridge Blvd",
+        "info_city": "Wausau",
+        "info_state": "WI",
+        "info_zip": 54401,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Isaacs",
+        "info_maidenName": "",
+        "info_firstName": "David",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.668335,
+          44.9658966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1206 Temkin Avenue",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53705,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Michel",
+        "info_maidenName": "",
+        "info_firstName": "Steven",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4778748,
+          43.0802803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1120 Emmons Ct",
+        "info_city": "Lake Forest",
+        "info_state": "IL",
+        "info_zip": 60045,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Papesch",
+        "info_maidenName": "",
+        "info_firstName": "James",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8744736,
+          42.2606506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "801 S Stevens St",
+        "info_city": "Spokane",
+        "info_state": "WA",
+        "info_zip": 99204,
+        "info_country": "",
+        "info_notes": "still listed on U of CO website, but I called there to confirm that he has moved on",
+        "info_lastName": "Petersen",
+        "info_maidenName": "",
+        "info_firstName": "Brian",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Inland Imaging",
+        "info_position": "http://www.rmradiologists.com/",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4192672,
+          47.6487941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6318 Urich Terrace",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53719,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Siepmann",
+        "info_maidenName": "",
+        "info_firstName": "David",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4918137,
+          43.0065193
+        ]
+      }
+    }
+  ]
+}

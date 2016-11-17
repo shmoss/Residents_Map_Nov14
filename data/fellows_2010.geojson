@@ -1,0 +1,285 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "114 West Stratford",
+        "info_city": "Peoria",
+        "info_state": "IL",
+        "info_zip": 61614,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Brinkman",
+        "info_maidenName": "",
+        "info_firstName": "Mikala",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "Central Illinois Radiological Associates, LTD",
+        "info_position": "Body Imaging",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5947495,
+          40.7323532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1342 Glen Ellyn Dr. SE",
+        "info_city": "Grand Rapids",
+        "info_state": "MI",
+        "info_zip": 49546,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Buchach",
+        "info_maidenName": "",
+        "info_firstName": "Christopher",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5214691,
+          42.9392242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "15 Greens Shade",
+        "info_city": "San Antonio",
+        "info_state": "TX",
+        "info_zip": 78216,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Chandler",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2008",
+        "info_fellowshipEnd": "7/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5054855,
+          29.5810795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2 College St",
+        "info_city": "Clinton",
+        "info_state": "CT",
+        "info_zip": 6413,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Jedynak",
+        "info_maidenName": "",
+        "info_firstName": "Andrzej",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5157925,
+          41.2763764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "553 Riverside Drive",
+        "info_city": "Ormond Beach",
+        "info_state": "FL",
+        "info_zip": 53213,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Runyan",
+        "info_maidenName": "",
+        "info_firstName": "Brandon",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0402756,
+          29.2748413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1620 Fillmore ",
+        "info_city": "Denver",
+        "info_state": "CO",
+        "info_zip": 80206,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Strickland",
+        "info_maidenName": "",
+        "info_firstName": "Colin",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9535191,
+          39.7424378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2741 Stafford Rd",
+        "info_city": "Edmond",
+        "info_state": "OK",
+        "info_zip": 73012,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Wagner",
+        "info_maidenName": "",
+        "info_firstName": "Jason",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5199203,
+          35.6713066
+        ]
+      }
+    }
+  ]
+}

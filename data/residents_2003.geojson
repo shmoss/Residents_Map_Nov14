@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6545 France Ave S ",
+        "info_city": "Edina",
+        "info_state": "MN",
+        "info_zip": 55435,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Bechtel",
+        "info_maidenName": "",
+        "info_firstName": "Mark",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Diagnostic Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1999",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Suburban Radiological Consultants",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3277435,
+          44.88451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2941 S Ridge Rd",
+        "info_city": "Green Bay",
+        "info_state": "WI",
+        "info_zip": 54304,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Davison",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "F",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Green Bay Radiology",
+        "info_position": "Radiologist, Nuc Med",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0866928,
+          44.4722366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3827 Paxton Ave",
+        "info_city": "Cincinnati",
+        "info_state": "OH",
+        "info_zip": 45209,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hoeg",
+        "info_maidenName": "",
+        "info_firstName": "Karin",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1999",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Cincinatti Children's Hospital Medical Center",
+        "info_position": "Peds Fellowship",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4297485,
+          39.1471214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "19911 Bothell-Everett Hwy",
+        "info_city": "Bothell",
+        "info_state": "WA",
+        "info_zip": 98012,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Josafat",
+        "info_maidenName": "",
+        "info_firstName": "Alice",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1999",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "University of Colorado",
+        "info_position": "Body Imaging Fellowship",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2074126,
+          47.8175037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "4000 Gypsy Lane",
+        "info_city": "Philadelphia",
+        "info_state": "PA",
+        "info_zip": 19129,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Sanchez",
+        "info_maidenName": "",
+        "info_firstName": "Richard",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1999",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "University of Chicago",
+        "info_position": "Neuro Fellowship",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1985427,
+          40.0152875
+        ]
+      }
+    }
+  ]
+}

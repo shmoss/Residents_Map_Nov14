@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1959 NE Pacific Street",
+        "info_city": "Seattle",
+        "info_state": "WA",
+        "info_zip": 98195,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ahuja",
+        "info_maidenName": "",
+        "info_firstName": "Jitesh",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Thoracic Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "8/10/2012",
+        "info_fellowshipEnd": "8/9/2013",
+        "info_institution": "University of Washington",
+        "info_position": "Senior Fellow, Cardiothoracic Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3072545,
+          47.6503122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "728 134th St SW ",
+        "info_city": "Everett",
+        "info_state": "WA",
+        "info_zip": 98204,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Akselrod",
+        "info_maidenName": "",
+        "info_firstName": "Dmitriy",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "Valley Hospital",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2434082,
+          47.8761063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2320 Bath Street ",
+        "info_city": "Santa Barbara",
+        "info_state": "CA",
+        "info_zip": 93105,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Backer",
+        "info_maidenName": "",
+        "info_firstName": "Matthew",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "Peublo Radiology Associates",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7221375,
+          34.4311028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "645 Beacon St.",
+        "info_city": "Boston",
+        "info_state": "MA",
+        "info_zip": 2215,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Cheung",
+        "info_maidenName": "",
+        "info_firstName": "Arnold",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0976944,
+          42.3483658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "9344 Cedar Center Way",
+        "info_city": "Louisville",
+        "info_state": "KY",
+        "info_zip": 40291,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Church",
+        "info_maidenName": "",
+        "info_firstName": "An",
+        "info_middleName": "L",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "DXP Imaging",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5878862,
+          38.1450436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "43 New Scotland Avenue",
+        "info_city": "Albany",
+        "info_state": "NY",
+        "info_zip": 12208,
+        "info_country": "",
+        "info_notes": "D.O.",
+        "info_lastName": "Huston",
+        "info_maidenName": "",
+        "info_firstName": "Jason",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "Albany Medical Center Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7758255,
+          42.6529503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "501 Summit Street",
+        "info_city": "Yankton",
+        "info_state": "SD",
+        "info_zip": 57078,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Qazi",
+        "info_maidenName": "",
+        "info_firstName": "Naila",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4079437,
+          42.8731956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5338 1st Ave N",
+        "info_city": "St Petersburg",
+        "info_state": "FL",
+        "info_zip": 33710,
+        "info_country": "",
+        "info_notes": "hired in April by \"Neuro-interventional Associates\" - Fort Meyers, FL area",
+        "info_lastName": "Shaheen",
+        "info_maidenName": "",
+        "info_firstName": "Fawad",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "ENIN",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7061005,
+          27.7715206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "125 Parker Hill Ave",
+        "info_city": "Boston",
+        "info_state": "MA",
+        "info_zip": 2120,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Tang",
+        "info_maidenName": "",
+        "info_firstName": "Joseph",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "New England Baptist Hospital",
+        "info_position": "Neuroradiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1062546,
+          42.3291893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "P.O. Box 44428",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53744,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Kitchin",
+        "info_maidenName": "",
+        "info_firstName": "Douglas",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "fac",
+        "info_facultySection": "Abdominal Imaging",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "5/30/2013",
+        "info_institution": "Madison Radiologists",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.415066,
+          43.065104
+        ]
+      }
+    }
+  ]
+}

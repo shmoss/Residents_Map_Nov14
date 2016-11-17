@@ -1,0 +1,645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "500 University Dr.",
+        "info_city": "Hershey",
+        "info_state": "PA",
+        "info_zip": 17033,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Gustas",
+        "info_maidenName": "",
+        "info_firstName": "Cristy",
+        "info_middleName": "N",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Penn State Milton S. Hershey Medical Center",
+        "info_position": "MSK Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6742244,
+          40.2655973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "12902 Magnolia Drive",
+        "info_city": "Tampa",
+        "info_state": "FL",
+        "info_zip": 33612,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Jeong",
+        "info_maidenName": "",
+        "info_firstName": "Daniel",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Moffitt Cancer Center",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4658432,
+          27.9388103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "100 South Ashley Drive",
+        "info_city": "Tampa",
+        "info_state": "FL",
+        "info_zip": 33602,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Kuo",
+        "info_maidenName": "",
+        "info_firstName": "Jarret",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.457733,
+          27.944217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "550 N. University Blvd",
+        "info_city": "Indianapolis",
+        "info_state": "IN",
+        "info_zip": 46202,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ladd",
+        "info_maidenName": "Burns",
+        "info_firstName": "Lauren",
+        "info_middleName": "M",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Indiana University",
+        "info_position": "MSK Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1755843,
+          39.775309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "400 W River Woods Pkwy",
+        "info_city": "Glendale",
+        "info_state": "WI",
+        "info_zip": 53212,
+        "info_country": "",
+        "info_notes": "Father is an attorney, most up to date info is on his website, but all it says is that she's practicing as a radiologist in Milwaukee - this may refer to her time at Wheaton, before she was at UW",
+        "info_lastName": "McNally",
+        "info_maidenName": "",
+        "info_firstName": "Madeline",
+        "info_middleName": "A",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Milwaukee Radiologists, LTD.",
+        "info_position": "Diagnostic Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9119492,
+          43.0994873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "975 E. Third St",
+        "info_city": "Chattanooga",
+        "info_state": "TN",
+        "info_zip": 37403,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Muzahir",
+        "info_maidenName": "",
+        "info_firstName": "Saima",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Nuclear Medicine",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "4/18/2013",
+        "info_fellowshipEnd": "4/17/2014",
+        "info_institution": "Tennessee Interventional & Imaging Associates",
+        "info_position": "Nuclear Medicine",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2876282,
+          35.047184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "166 4th St. East",
+        "info_city": "St Paul",
+        "info_state": "MN",
+        "info_zip": 55101,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Nace",
+        "info_maidenName": "",
+        "info_firstName": "Sara",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "St. Paul Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.0881424,
+          44.9472961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "127 McClanahan St",
+        "info_city": "Roanoke",
+        "info_state": "VA",
+        "info_zip": 24014,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Patel",
+        "info_maidenName": "",
+        "info_firstName": "Biraj",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "ENIN",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Carilion Clinic",
+        "info_position": "Interventional Neuroradiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.946579,
+          37.2506981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "572 Brodhead Rd",
+        "info_city": "Monaca",
+        "info_state": "PA",
+        "info_zip": 15061,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Peterson",
+        "info_maidenName": "",
+        "info_firstName": "William",
+        "info_middleName": "M",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Brighton Radiology Associates",
+        "info_position": "Musculoskeletal Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.31073,
+          40.6751289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "",
+        "info_city": "Port of Spain",
+        "info_state": "",
+        "info_zip": "",
+        "info_country": "Trinidad & Tobago",
+        "info_notes": "",
+        "info_lastName": "Ryckman",
+        "info_maidenName": "",
+        "info_firstName": "Eva",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Community Hospital of Seventh-Day Adventist",
+        "info_position": "General Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.5139008,
+          10.6566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5901 Technology Center Dr",
+        "info_city": "Indianapolis",
+        "info_state": "IN",
+        "info_zip": 46278,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Sundblad",
+        "info_maidenName": "",
+        "info_firstName": "Andrew",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Northwest Radiology Network",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2600531,
+          39.9267431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "200 Jefferson Ave SE",
+        "info_city": "Grand Rapids",
+        "info_state": "MI",
+        "info_zip": 49503,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Rollenhagen",
+        "info_maidenName": "",
+        "info_firstName": "Jennifer",
+        "info_middleName": "E",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Breast Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Kent Radiology",
+        "info_position": "Radiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6628418,
+          42.9584579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1873 South Bellaire St",
+        "info_city": "Denver",
+        "info_state": "CO",
+        "info_zip": 80222,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Loomis",
+        "info_maidenName": "",
+        "info_firstName": "Scott",
+        "info_middleName": "B",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Rocky Mountain Radiologists",
+        "info_position": "General/Body Radiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9374847,
+          39.6823845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "515 NE Glen Oak",
+        "info_city": "Peoria",
+        "info_state": "IL",
+        "info_zip": 61630,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Maksimovic",
+        "info_maidenName": "",
+        "info_firstName": "Jane",
+        "info_middleName": "H",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Central Ilinois Radiologic Associates",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5913391,
+          40.7022209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3264 North Evergreen Dr.",
+        "info_city": "Grand Rapids",
+        "info_state": "MI",
+        "info_zip": 49525,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Tierney",
+        "info_maidenName": "",
+        "info_firstName": "Mark",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Advanced Radiology Services",
+        "info_position": "Neuroradiologist",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5863037,
+          43.0185013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "12251 S. 80th Ave",
+        "info_city": "Palos Heights",
+        "info_state": "IL",
+        "info_zip": 60463,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Patil",
+        "info_maidenName": "",
+        "info_firstName": "Patil",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Radiology and Nuclear Consultants",
+        "info_position": "Radiology and Musculoskeletal Imaging",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8139038,
+          41.6687431
+        ]
+      }
+    }
+  ]
+}

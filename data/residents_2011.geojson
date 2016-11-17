@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "75 Francis St.",
+        "info_city": "Boston",
+        "info_state": "MA",
+        "info_zip": 2115,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "O'Connor",
+        "info_maidenName": "",
+        "info_firstName": "Stacy",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Brigham and Women's Hospital",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 1900,
+        "info_date": 2011,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1075349,
+          42.3359462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3501 N Scottsdale Rd",
+        "info_city": "Scottsdale",
+        "info_state": "AZ",
+        "info_zip": 85251,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Wise",
+        "info_maidenName": "",
+        "info_firstName": "Steven",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Scottsdale Medical Imaging LTD",
+        "info_position": "Neuroradiology",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 1900,
+        "info_date": 2011,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9260294,
+          33.4889755
+        ]
+      }
+    }
+  ]
+}

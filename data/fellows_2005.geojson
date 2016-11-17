@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "700 S Park St",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53715,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Buencamino",
+        "info_maidenName": "",
+        "info_firstName": "Cenon",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Dean Health Care",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.401512,
+          43.059272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5916 W. Ivyleaf Ct.",
+        "info_city": "Peoria",
+        "info_state": "IL",
+        "info_zip": 61615,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Fahey",
+        "info_maidenName": "",
+        "info_firstName": "Kevin",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Thoracic Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6866913,
+          40.7697487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "130 W. Guadalupe",
+        "info_city": "Gilbert",
+        "info_state": "AZ",
+        "info_zip": 85233,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hoffman",
+        "info_maidenName": "",
+        "info_firstName": "Mark",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Fellow-2yr",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.7926483,
+          33.3663788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "10400 W North Ave ",
+        "info_city": "Milwaukee",
+        "info_state": "WI",
+        "info_zip": 53226,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Jennings",
+        "info_maidenName": "",
+        "info_firstName": "Jonathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "12/31/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.043212,
+          43.060928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6614 Melody Lane",
+        "info_city": "Bethesda",
+        "info_state": "MD",
+        "info_zip": 20817,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Srivastava",
+        "info_maidenName": "",
+        "info_firstName": "Sangeeta",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1345062,
+          38.9923973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "544 W. Main Street ",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53703,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Stephani",
+        "info_maidenName": "",
+        "info_firstName": "Nicholas",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3911743,
+          43.0685501
+        ]
+      }
+    }
+  ]
+}

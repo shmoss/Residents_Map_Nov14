@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "111 E. Chestnut Street ",
+        "info_city": "Chicago",
+        "info_state": "IL",
+        "info_zip": 60611,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Bahu",
+        "info_maidenName": "",
+        "info_firstName": "Amira",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2002",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Gurnee Radiology",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6252289,
+          41.8979721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "500 W Brown Deer Road",
+        "info_city": "Bayside",
+        "info_state": "WI",
+        "info_zip": 53217,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Berridge",
+        "info_maidenName": "",
+        "info_firstName": "Debra",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2002",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Wisconsin Radiology Specialists",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9144745,
+          43.1777153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "714 N. Senate Ave",
+        "info_city": "Indianapolis",
+        "info_state": "IN",
+        "info_zip": 46202,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Dolar",
+        "info_maidenName": "",
+        "info_firstName": "Maria",
+        "info_middleName": "Thea",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1638184,
+          39.7775383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2814 Shandy Ave",
+        "info_city": "Wilmington",
+        "info_state": "NC",
+        "info_zip": 28403,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hession",
+        "info_maidenName": "",
+        "info_firstName": "Willard",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2002",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Delaney Radiologists",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.8294144,
+          34.202549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "118 Rolling Trace",
+        "info_city": "Falls Church",
+        "info_state": "VA",
+        "info_zip": 22046,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Stanczak",
+        "info_maidenName": "",
+        "info_firstName": "Jeffrey",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2002",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Fairfax Radiologic Consultants",
+        "info_position": "MSK Radiologist - Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.167923,
+          38.8785782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3526 Glenhurst Avenue",
+        "info_city": "St. Louis Park",
+        "info_state": "MN",
+        "info_zip": 55416,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Suleiman",
+        "info_maidenName": "",
+        "info_firstName": "Samer",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MRI",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "2/1/2002",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Abbott Northwestern Hospital",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.33068,
+          44.938232
+        ]
+      }
+    }
+  ]
+}

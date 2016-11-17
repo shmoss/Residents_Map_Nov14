@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "351 E. Alameda St.",
+        "info_city": "Santa Fe",
+        "info_state": "NM",
+        "info_zip": 87501,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Jellison",
+        "info_maidenName": "",
+        "info_firstName": "Brian",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2001",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Massachusetts General Hospital",
+        "info_position": "Neuroradiology Fellow",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9317017,
+          35.6851578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "8915 W. Connell Ave.",
+        "info_city": "Milwaukee",
+        "info_state": "WI",
+        "info_zip": 53226,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Moe",
+        "info_maidenName": "",
+        "info_firstName": "David",
+        "info_middleName": "",
+        "info_intern": 6,
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2001",
+        "info_residencyEnd": "6/30/2005",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Children's Hospital of Wisconsin",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2005,
+        "info_felDate": 1900,
+        "info_date": 2005,
+        "info_status": "r"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0570831,
+          43.21035
+        ]
+      }
+    }
+  ]
+}
