@@ -24,6 +24,7 @@ function createMap() {
     var IndexCounter = 0; //tracks attribute being mapped
     var geoJsonLayers = {};
     var index;
+    console.log(index)
 
     var streets = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
@@ -160,12 +161,12 @@ function createMap() {
     // getFellowsData2006(map);
     // getFellowsData2007(map);
     // getFellowsData2008(map);
-    getFellowsData2009(map);
-    if (map.hasLayer(geoJsonLayers.fellows_2009)) {
-        console.log("hithere")
-    } else {
-        console.log("nope")
-    }
+    // getFellowsData2009(map);
+    // if (map.hasLayer(geoJsonLayers.fellows_2009)) {
+    //     console.log("hithere")
+    // } else {
+    //     console.log("nope")
+    // }
     //map.removeLayer(geoJsonLayers.fellows_2009)
     // getFellowsData2010(map);
     // getFellowsData2011(map);
@@ -833,7 +834,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1978", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -852,7 +853,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1982", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -871,7 +872,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1983", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -890,7 +891,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1985", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -909,7 +910,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1986", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -928,7 +929,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1987", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -947,7 +948,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1988", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -966,7 +967,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1989", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -985,7 +986,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1990", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1004,7 +1005,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1991", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1023,7 +1024,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1992", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1042,7 +1043,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1993", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1061,7 +1062,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1994", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1080,7 +1081,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1995", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1099,7 +1100,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1996", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1118,7 +1119,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1997", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1137,7 +1138,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1998", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1156,7 +1157,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_1999", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1175,7 +1176,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2000", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1194,7 +1195,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2001", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1213,7 +1214,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2002", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1232,7 +1233,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2003", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1251,7 +1252,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2004", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1270,7 +1271,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2005", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1289,7 +1290,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2006", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1308,7 +1309,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2007", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1327,7 +1328,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2008", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1365,7 +1366,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2010", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1384,7 +1385,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2011", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1403,7 +1404,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2012", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1422,7 +1423,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2013", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1441,7 +1442,7 @@ function createMap() {
                 console.log("successful");
                 attributes = processData(response);
                 //call function to create proportional symbols
-                createPropSymbols(response, map, attributes, "fellows", "red");
+                createPropSymbols(response, map, attributes, "fellows_2014", "red");
                 console.log(geoJsonLayers.fellows._layers.features);
                 console.log(response);
                 return response
@@ -1505,33 +1506,87 @@ function createMap() {
 //function to determine whether or not to show raw or normalized attribute
     function selectValues(map) {
         //create "raw" and "normalized" buttons
-        $('#panel').append('<button class="Cities" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:14px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show US Cities</button>');
-        $('#panel').append('<button class="Countries" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:14px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show Global</button>');
+        // $('#panel').append('<input type="checkbox" class="Cities" value="true" checked="checked" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:4px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show US Cities</button>');
+        // $('#panel').append('<button class="Countries" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:14px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show Global</button>');
 
-        //If normalized button hit, call function
-        $(".Cities").click(function () {
-            console.log("cities");
-            // var index = $('.range-slider').val();
-            //  normalized = true
-            //  raw = false
-            // //create true false statement
-            // if (normalized == true) {
-            // //if true, update based on normalized attributes
-            //     updatePropSymbols(map, attributes[index], rawAttributes[index]);
-            // };
-
-            map.setView(new L.LatLng(41.4, -110), 4);
-
-            console.log("this is a test");
-            if (map.hasLayer(geoJsonLayers.countries)) {
-                console.log("map has countries");
-                map.removeLayer(geoJsonLayers.countries);
-                map.addLayer(geoJsonLayers.cities);
-                map.removeLayer(geoJsonLayers.usa)
-            }
-            console.log(GE_Cities)
-
-        });
+        // //If normalized button hit, call function
+        // $(".Cities").change(function () {
+        //     console.log("cities");
+        //     if($(this).is(':checked')) {
+        //         getFellowsData1978(map)
+        //         getFellowsData1982(map)
+        //         getFellowsData1983(map)
+        //         // //getFellowsData1984(map)
+        //         getFellowsData1985(map)
+        //         getFellowsData1986(map)
+        //         getFellowsData1987(map)
+        //         getFellowsData1988(map)
+        //         getFellowsData1989(map)
+        //         getFellowsData1990(map)
+        //         getFellowsData1991(map)
+        //         getFellowsData1992(map)
+        //         getFellowsData1993(map)
+        //         getFellowsData1994(map)
+        //         getFellowsData1995(map)
+        //         getFellowsData1996(map)
+        //         getFellowsData1997(map)
+        //         getFellowsData1998(map)
+        //         getFellowsData1999(map)
+        //         getFellowsData2000(map)
+        //         getFellowsData2001(map)
+        //         getFellowsData2002(map)
+        //         getFellowsData2003(map)
+        //         getFellowsData2004(map)
+        //         getFellowsData2005(map)
+        //         getFellowsData2006(map)
+        //         getFellowsData2007(map)
+        //         getFellowsData2008(map)
+        //         getFellowsData2009(map)
+        //         getFellowsData2010(map)
+        //         getFellowsData2011(map)
+        //         getFellowsData2012(map)
+        //         getFellowsData2013(map)
+        //         getFellowsData2014(map)
+        //     } else {
+        //         map.removeLayer(geoJsonLayers.fellows_1978)
+        //         map.removeLayer(geoJsonLayers.fellows_1982)
+        //         map.removeLayer(geoJsonLayers.fellows_1983)
+        //         // map.removeLayer(geoJsonLayers.fellows_1984)
+        //         map.removeLayer(geoJsonLayers.fellows_1985)
+        //         map.removeLayer(geoJsonLayers.fellows_1986)
+        //         map.removeLayer(geoJsonLayers.fellows_1987)
+        //         map.removeLayer(geoJsonLayers.fellows_1988)
+        //         map.removeLayer(geoJsonLayers.fellows_1989)
+        //         map.removeLayer(geoJsonLayers.fellows_1990)
+        //         map.removeLayer(geoJsonLayers.fellows_1991)
+        //         map.removeLayer(geoJsonLayers.fellows_1992)
+        //         map.removeLayer(geoJsonLayers.fellows_1993)
+        //         map.removeLayer(geoJsonLayers.fellows_1994)
+        //         map.removeLayer(geoJsonLayers.fellows_1995)
+        //         map.removeLayer(geoJsonLayers.fellows_1996)
+        //         map.removeLayer(geoJsonLayers.fellows_1997)
+        //         map.removeLayer(geoJsonLayers.fellows_1998)
+        //         map.removeLayer(geoJsonLayers.fellows_1999)
+        //         map.removeLayer(geoJsonLayers.fellows_2000)
+        //         map.removeLayer(geoJsonLayers.fellows_2001)
+        //         map.removeLayer(geoJsonLayers.fellows_2002)
+        //         map.removeLayer(geoJsonLayers.fellows_2003)
+        //         map.removeLayer(geoJsonLayers.fellows_2004)
+        //         map.removeLayer(geoJsonLayers.fellows_2005)
+        //         map.removeLayer(geoJsonLayers.fellows_2006)
+        //         map.removeLayer(geoJsonLayers.fellows_2007)
+        //         map.removeLayer(geoJsonLayers.fellows_2008)
+        //         map.removeLayer(geoJsonLayers.fellows_2009)
+        //         map.removeLayer(geoJsonLayers.fellows_2010)
+        //         map.removeLayer(geoJsonLayers.fellows_2011)
+        //         map.removeLayer(geoJsonLayers.fellows_2012)
+        //         map.removeLayer(geoJsonLayers.fellows_2013)
+        //         map.removeLayer(geoJsonLayers.fellows_2014)
+        //     }
+        //
+        //
+        //
+        // });
 
         $(".Countries").click(function () {
             // var index = $('.range-slider').val();
@@ -1588,7 +1643,40 @@ function createMap() {
 //     }
 //   });
 //   map.addControl(new SequenceControl());
-
+    getFellowsData1978(map)
+    getFellowsData1982(map)
+    getFellowsData1983(map)
+    // //getFellowsData1984(map)
+    getFellowsData1985(map)
+    getFellowsData1986(map)
+    getFellowsData1987(map)
+    getFellowsData1988(map)
+    getFellowsData1989(map)
+    getFellowsData1990(map)
+    getFellowsData1991(map)
+    getFellowsData1992(map)
+    getFellowsData1993(map)
+    getFellowsData1994(map)
+    getFellowsData1995(map)
+    getFellowsData1996(map)
+    getFellowsData1997(map)
+    getFellowsData1998(map)
+    getFellowsData1999(map)
+    getFellowsData2000(map)
+    getFellowsData2001(map)
+    getFellowsData2002(map)
+    getFellowsData2003(map)
+    getFellowsData2004(map)
+    getFellowsData2005(map)
+    getFellowsData2006(map)
+    getFellowsData2007(map)
+    getFellowsData2008(map)
+    getFellowsData2009(map)
+    getFellowsData2010(map)
+    getFellowsData2011(map)
+    getFellowsData2012(map)
+    getFellowsData2013(map)
+    getFellowsData2014(map)
 
 // createSequenceControls(map, attributes);
 
@@ -1631,6 +1719,93 @@ function createMap() {
         });
 //add forward, backward arrows with icons
 
+
+        $('#panel').append('<input type="checkbox" class="Cities" value="true" checked="checked" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:4px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show US Cities</button>');
+        $('#panel').append('<button class="Countries" style="-moz-box-shadow: 0px 10px 14px -7px #383838; -webkit-box-shadow: 0px 10px 14px -7px #383838; box-shadow: 0px 10px 14px -7px #383838; background-color:#FFF; -moz-border-radius:8px; -webkit-border-radius:8px; border-radius:8px; display:inline-block; cursor:pointer; color:#000000; font-family:avenir; font-size:14px; font-weight:bold; padding:8px 14px; text-decoration:none;">Show Global</button>');
+
+        $(".Cities").change(function () {
+            console.log(index);
+            if($(this).is(':checked')) {
+                // getFellowsData1978(map)
+                //         getFellowsData1982(map)
+                //         getFellowsData1983(map)
+                //         // //getFellowsData1984(map)
+                //         getFellowsData1985(map)
+                //         getFellowsData1986(map)
+                //         getFellowsData1987(map)
+                //         getFellowsData1988(map)
+                //         getFellowsData1989(map)
+                //         getFellowsData1990(map)
+                //         getFellowsData1991(map)
+                //         getFellowsData1992(map)
+                //         getFellowsData1993(map)
+                //         getFellowsData1994(map)
+                //         getFellowsData1995(map)
+                //         getFellowsData1996(map)
+                //         getFellowsData1997(map)
+                //         getFellowsData1998(map)
+                //         getFellowsData1999(map)
+                //         getFellowsData2000(map)
+                //         getFellowsData2001(map)
+                //         getFellowsData2002(map)
+                //         getFellowsData2003(map)
+                //         getFellowsData2004(map)
+                //         getFellowsData2005(map)
+                //         getFellowsData2006(map)
+                //         getFellowsData2007(map)
+                //         getFellowsData2008(map)
+                //         getFellowsData2009(map)
+                //         getFellowsData2010(map)
+                //         getFellowsData2011(map)
+                //         getFellowsData2012(map)
+                //         getFellowsData2013(map)
+                //         getFellowsData2014(map)
+
+            } else {
+                map.removeLayer(geoJsonLayers.fellows_1978)
+                map.removeLayer(geoJsonLayers.fellows_1982)
+                map.removeLayer(geoJsonLayers.fellows_1983)
+                // map.removeLayer(geoJsonLayers.fellows_1984)
+                map.removeLayer(geoJsonLayers.fellows_1985)
+                map.removeLayer(geoJsonLayers.fellows_1986)
+                map.removeLayer(geoJsonLayers.fellows_1987)
+                map.removeLayer(geoJsonLayers.fellows_1988)
+                map.removeLayer(geoJsonLayers.fellows_1989)
+                map.removeLayer(geoJsonLayers.fellows_1990)
+                map.removeLayer(geoJsonLayers.fellows_1991)
+                map.removeLayer(geoJsonLayers.fellows_1992)
+                map.removeLayer(geoJsonLayers.fellows_1993)
+                map.removeLayer(geoJsonLayers.fellows_1994)
+                map.removeLayer(geoJsonLayers.fellows_1995)
+                map.removeLayer(geoJsonLayers.fellows_1996)
+                map.removeLayer(geoJsonLayers.fellows_1997)
+                map.removeLayer(geoJsonLayers.fellows_1998)
+                map.removeLayer(geoJsonLayers.fellows_1999)
+                map.removeLayer(geoJsonLayers.fellows_2000)
+                map.removeLayer(geoJsonLayers.fellows_2001)
+                map.removeLayer(geoJsonLayers.fellows_2002)
+                map.removeLayer(geoJsonLayers.fellows_2003)
+                map.removeLayer(geoJsonLayers.fellows_2004)
+                map.removeLayer(geoJsonLayers.fellows_2005)
+                map.removeLayer(geoJsonLayers.fellows_2006)
+                map.removeLayer(geoJsonLayers.fellows_2007)
+                map.removeLayer(geoJsonLayers.fellows_2008)
+                map.removeLayer(geoJsonLayers.fellows_2009)
+                map.removeLayer(geoJsonLayers.fellows_2010)
+                map.removeLayer(geoJsonLayers.fellows_2011)
+                map.removeLayer(geoJsonLayers.fellows_2012)
+                map.removeLayer(geoJsonLayers.fellows_2013)
+                map.removeLayer(geoJsonLayers.fellows_2014)
+            }
+
+
+
+        });
+        //If normalized button hit, call function
+
+
+
+
         $('#reverse').html('<img src="img/left2.png"">');
         $('#forward').html('<img src="img/right2.png">');
         $('.skip').click(function () {
@@ -1639,6 +1814,89 @@ function createMap() {
             if ($(this).attr('id') == 'forward') {
                 index++;
                 index = index > 2016 ? 1971 : index;
+                if (index == 1971) {
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
+
+                }
                 if (index == 1972) {
                     //getResidentsData1973(map);
                     console.log(index)
@@ -1669,6 +1927,42 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2014)
 
 
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+
+
                     // var arr = [];//this array to hold your filterred object
                     // geoJsonLayers.eachLayer(function(layer){
                     //     if(layer.feature.properties.info_date === 2010){
@@ -1679,132 +1973,1958 @@ function createMap() {
 
                     //points.addTo(map)
 
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_2007))
+                                getFellowsData1978(map)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1973) {
                     //getResidentsData1984(map);
                     console.log(index)
-                    //map.removeLayer(geoJsonLayers.fellows_2009)
                     map.addLayer(geoJsonLayers.residents_1973)
 
                 }
 
-                if (index == 1984) {
+
+                if (index == 1974) {
                     //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+
+                }
+
+                if (index == 1975) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1976) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1977) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1978) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.addLayer(geoJsonLayers.fellows_1978)
+                    map.addLayer(geoJsonLayers.fellows_1978)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1978)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1979) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1980) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1981) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                }
+
+                if (index == 1982) {
+                    //getResidentsData1984(map);
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1982)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1982)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1983) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1983)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1983)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1984) {
                     console.log(index)
                     map.addLayer(geoJsonLayers.residents_1984)
 
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                console.log("map has layer")
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
                 }
+
+                if (index == 1985) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1985)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1985)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1986) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1986)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1986)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1987) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1987)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1987)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+                if (index == 1988) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_1988)
+                    //map.removeLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1988)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+                }
+
+
                 if (index == 1989) {
                     console.log(index)
                     //getResidentsData1989(map);
 
                     map.addLayer(geoJsonLayers.residents_1989)
+                    map.addLayer(geoJsonLayers.fellows_1989)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1989)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+
                 }
                 if (index == 1990) {
                     //getResidentsData1990(map);
                     console.log(index)
                     map.addLayer(geoJsonLayers.residents_1990)
+                    map.addLayer(geoJsonLayers.fellows_1990)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1990)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1991) {
                     console.log(index)
                     //getResidentsData1991(map);
                     map.addLayer(geoJsonLayers.residents_1991)
+                    map.addLayer(geoJsonLayers.fellows_1991)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1991)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1992) {
                     console.log(index)
                     //getResidentsData1992(map);
                     map.addLayer(geoJsonLayers.residents_1992)
+                    map.addLayer(geoJsonLayers.fellows_1992)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1992)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1993) {
                     console.log(index)
                     //getResidentsData1993(map);
                     map.addLayer(geoJsonLayers.residents_1993)
+                    map.addLayer(geoJsonLayers.fellows_1993)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1993)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1994) {
                     console.log(index)
                     //getResidentsData1994(map);
                     map.addLayer(geoJsonLayers.residents_1994)
+                    map.addLayer(geoJsonLayers.fellows_1994)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1994)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1995) {
                     console.log(index)
                     //getResidentsData1995(map);
                     map.addLayer(geoJsonLayers.residents_1995)
+                    map.addLayer(geoJsonLayers.fellows_1995)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1995)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+                }
+                if (index == 1996) {
+                    console.log(index)
+                    //getResidentsData1995(map);
+                    map.addLayer(geoJsonLayers.residents_1996)
+                    map.addLayer(geoJsonLayers.fellows_1996)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1996)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1997) {
                     console.log(index)
                     //getResidentsData1973(map);
                     map.addLayer(geoJsonLayers.residents_1997)
+                    map.addLayer(geoJsonLayers.fellows_1997)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1997)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+
+
                 }
                 if (index == 1998) {
                     console.log(index)
                     //getResidentsData1998(map);
                     map.addLayer(geoJsonLayers.residents_1998)
+                    map.addLayer(geoJsonLayers.fellows_1998)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1998)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 1999) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_1999)
+                    map.addLayer(geoJsonLayers.fellows_1999)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_1999)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2000) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2000)
+                    map.addLayer(geoJsonLayers.fellows_2000)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2000)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
+                }
+                if (index == 2001) {
+                    console.log(index)
+                    //getResidentsData1999(map);
+                    map.addLayer(geoJsonLayers.fellows_2001)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2001)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2002) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2002)
+                    map.addLayer(geoJsonLayers.fellows_2002)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2002)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2003) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2003)
+                    map.addLayer(geoJsonLayers.fellows_2003)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2003)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2004) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2004)
+                    map.addLayer(geoJsonLayers.fellows_2004)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2004)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                            map.removeLayer(geoJsonLayer.fellows_1978)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2005) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2005)
+                    map.addLayer(geoJsonLayers.fellows_2005)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2005)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
                 }
                 if (index == 2006) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2006)
+                    map.addLayer(geoJsonLayers.fellows_2006)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2006)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+                }
+                if (index == 2007) {
+                    console.log(index)
+                    map.addLayer(geoJsonLayers.fellows_2007)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2007)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2008) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2008)
+                    map.addLayer(geoJsonLayers.fellows_2008)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2008)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2009) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2009)
+                    map.addLayer(geoJsonLayers.fellows_2009)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2009)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2010) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2010)
+                    map.addLayer(geoJsonLayers.fellows_2010)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2010)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2011) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2011)
+                    map.addLayer(geoJsonLayers.fellows_2011)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2011)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
+                }
+                if (index == 2012) {
+                    console.log(index)
+                    //getResidentsData1999(map);
+                    map.addLayer(geoJsonLayers.fellows_2012)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2012)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2013) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2013)
+                    map.addLayer(geoJsonLayers.fellows_2013)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2013)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
                 if (index == 2014) {
                     console.log(index)
                     //getResidentsData1999(map);
                     map.addLayer(geoJsonLayers.residents_2014)
+                    map.addLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+                            if (map.hasLayer(geoJsonLayers.residents_1971))
+                                map.addLayer(geoJsonLayers.fellows_2014)
+
+                        } else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+
+                        }
+
+
+
+                    });
                 }
 
                 //else if reverse clicked, decreasing increments by 1
@@ -1839,6 +3959,84 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
+
 
                     //map.removeLayer(geoJsonLayers.residents_1973)
                     // year = 2013;
@@ -1897,6 +4095,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
+
                 }
 
                 if (index == 1974) {
@@ -1927,6 +4202,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
+
                 }
 
                 if (index == 1975) {
@@ -1957,6 +4309,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
+
                 }
                 if (index == 1975) {
                     console.log(index)
@@ -1985,6 +4414,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
 
                 }
                 if (index == 1976) {
@@ -2015,6 +4521,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
+
                 }
                 if (index == 1977) {
                     console.log(index)
@@ -2043,6 +4626,83 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1978)
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+                    // map.removeLayer(geoJsonLayers.fellows_1984)
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+                    map.removeLayer(geoJsonLayers.fellows_1993)
+                    map.removeLayer(geoJsonLayers.fellows_1994)
+                    map.removeLayer(geoJsonLayers.fellows_1995)
+                    map.removeLayer(geoJsonLayers.fellows_1996)
+                    map.removeLayer(geoJsonLayers.fellows_1997)
+                    map.removeLayer(geoJsonLayers.fellows_1998)
+                    map.removeLayer(geoJsonLayers.fellows_1999)
+                    map.removeLayer(geoJsonLayers.fellows_2000)
+                    map.removeLayer(geoJsonLayers.fellows_2001)
+                    map.removeLayer(geoJsonLayers.fellows_2002)
+                    map.removeLayer(geoJsonLayers.fellows_2003)
+                    map.removeLayer(geoJsonLayers.fellows_2004)
+                    map.removeLayer(geoJsonLayers.fellows_2005)
+                    map.removeLayer(geoJsonLayers.fellows_2006)
+                    map.removeLayer(geoJsonLayers.fellows_2007)
+                    map.removeLayer(geoJsonLayers.fellows_2008)
+                    map.removeLayer(geoJsonLayers.fellows_2009)
+                    map.removeLayer(geoJsonLayers.fellows_2010)
+                    map.removeLayer(geoJsonLayers.fellows_2011)
+                    map.removeLayer(geoJsonLayers.fellows_2012)
+                    map.removeLayer(geoJsonLayers.fellows_2013)
+                    map.removeLayer(geoJsonLayers.fellows_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                    });
 
                 }
                 if (index == 1978) {
@@ -2073,10 +4733,97 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
+
+
                 }
                 if (index == 1979) {
                     console.log(index)
-
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+                    map.removeLayer(geoJsonLayers.fellows_1983)
                     map.removeLayer(geoJsonLayers.residents_1984)
                     map.removeLayer(geoJsonLayers.residents_1989)
                     map.removeLayer(geoJsonLayers.residents_1990)
@@ -2101,6 +4848,88 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
 
                 }
                 if (index == 1980) {
@@ -2131,6 +4960,88 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
+
                 }
                 if (index == 1981) {
                     console.log(index)
@@ -2159,6 +5070,89 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1982)
+
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1982) {
@@ -2189,10 +5183,91 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1983)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1983) {
                     console.log(index)
-
                     map.removeLayer(geoJsonLayers.residents_1984)
                     map.removeLayer(geoJsonLayers.residents_1989)
                     map.removeLayer(geoJsonLayers.residents_1990)
@@ -2217,6 +5292,85 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1984) {
@@ -2247,6 +5401,87 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1985)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1985) {
                     console.log(index)
@@ -2273,6 +5508,87 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1986)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1986) {
@@ -2301,6 +5617,86 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1987)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1987) {
                     console.log(index)
@@ -2327,6 +5723,85 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1988)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1988) {
@@ -2355,6 +5830,81 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1989)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1989) {
                     console.log(index)
@@ -2381,6 +5931,80 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1990)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1990) {
                     console.log(index)
@@ -2406,6 +6030,79 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
 
+                    map.removeLayer(geoJsonLayers.fellows_1991)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
+
                 }
                 if (index == 1991) {
                     console.log(index)
@@ -2429,6 +6126,79 @@ function createMap() {
                     map.removeLayer(geoJsonLayers.residents_2011)
                     map.removeLayer(geoJsonLayers.residents_2013)
                     map.removeLayer(geoJsonLayers.residents_2014)
+
+                    map.removeLayer(geoJsonLayers.fellows_1992)
+
+                    $(".Cities").change(function () {
+                        console.log(index);
+                        if($(this).is(':checked')) {
+
+
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+                        else {
+                            map.removeLayer(geoJsonLayers.fellows_1978)
+                            map.removeLayer(geoJsonLayers.fellows_1982)
+                            map.removeLayer(geoJsonLayers.fellows_1983)
+                            // map.removeLayer(geoJsonLayers.fellows_1984)
+                            map.removeLayer(geoJsonLayers.fellows_1985)
+                            map.removeLayer(geoJsonLayers.fellows_1986)
+                            map.removeLayer(geoJsonLayers.fellows_1987)
+                            map.removeLayer(geoJsonLayers.fellows_1988)
+                            map.removeLayer(geoJsonLayers.fellows_1989)
+                            map.removeLayer(geoJsonLayers.fellows_1990)
+                            map.removeLayer(geoJsonLayers.fellows_1991)
+                            map.removeLayer(geoJsonLayers.fellows_1992)
+                            map.removeLayer(geoJsonLayers.fellows_1993)
+                            map.removeLayer(geoJsonLayers.fellows_1994)
+                            map.removeLayer(geoJsonLayers.fellows_1995)
+                            map.removeLayer(geoJsonLayers.fellows_1996)
+                            map.removeLayer(geoJsonLayers.fellows_1997)
+                            map.removeLayer(geoJsonLayers.fellows_1998)
+                            map.removeLayer(geoJsonLayers.fellows_1999)
+                            map.removeLayer(geoJsonLayers.fellows_2000)
+                            map.removeLayer(geoJsonLayers.fellows_2001)
+                            map.removeLayer(geoJsonLayers.fellows_2002)
+                            map.removeLayer(geoJsonLayers.fellows_2003)
+                            map.removeLayer(geoJsonLayers.fellows_2004)
+                            map.removeLayer(geoJsonLayers.fellows_2005)
+                            map.removeLayer(geoJsonLayers.fellows_2006)
+                            map.removeLayer(geoJsonLayers.fellows_2007)
+                            map.removeLayer(geoJsonLayers.fellows_2008)
+                            map.removeLayer(geoJsonLayers.fellows_2009)
+                            map.removeLayer(geoJsonLayers.fellows_2010)
+                            map.removeLayer(geoJsonLayers.fellows_2011)
+                            map.removeLayer(geoJsonLayers.fellows_2012)
+                            map.removeLayer(geoJsonLayers.fellows_2013)
+                            map.removeLayer(geoJsonLayers.fellows_2014)
+                        }
+
+
+
+                    });
 
                 }
                 if (index == 1992) {
@@ -2794,6 +6564,41 @@ function createMap() {
                 map.removeLayer(geoJsonLayers.residents_2011)
                 map.removeLayer(geoJsonLayers.residents_2013)
                 map.removeLayer(geoJsonLayers.residents_2014)
+
+                map.removeLayer(geoJsonLayers.fellows_1978)
+                map.removeLayer(geoJsonLayers.fellows_1982)
+                map.removeLayer(geoJsonLayers.fellows_1983)
+                map.removeLayer(geoJsonLayers.fellows_1984)
+                map.removeLayer(geoJsonLayers.fellows_1985)
+                map.removeLayer(geoJsonLayers.fellows_1986)
+                map.removeLayer(geoJsonLayers.fellows_1987)
+                map.removeLayer(geoJsonLayers.fellows_1988)
+                map.removeLayer(geoJsonLayers.fellows_1989)
+                map.removeLayer(geoJsonLayers.fellows_1990)
+                map.removeLayer(geoJsonLayers.fellows_1991)
+                map.removeLayer(geoJsonLayers.fellows_1992)
+                map.removeLayer(geoJsonLayers.fellows_1993)
+                map.removeLayer(geoJsonLayers.fellows_1994)
+                map.removeLayer(geoJsonLayers.fellows_1995)
+                map.removeLayer(geoJsonLayers.fellows_1996)
+                map.removeLayer(geoJsonLayers.fellows_1997)
+                map.removeLayer(geoJsonLayers.fellows_1998)
+                map.removeLayer(geoJsonLayers.fellows_2000)
+                map.removeLayer(geoJsonLayers.fellows_2001)
+                map.removeLayer(geoJsonLayers.fellows_2002)
+                map.removeLayer(geoJsonLayers.fellows_2003)
+                map.removeLayer(geoJsonLayers.fellows_2004)
+                map.removeLayer(geoJsonLayers.fellows_2005)
+                map.removeLayer(geoJsonLayers.fellows_2006)
+                map.removeLayer(geoJsonLayers.fellows_2007)
+                map.removeLayer(geoJsonLayers.fellows_2008)
+                map.removeLayer(geoJsonLayers.fellows_2009)
+                map.removeLayer(geoJsonLayers.fellows_2010)
+                map.removeLayer(geoJsonLayers.fellows_2011)
+                map.removeLayer(geoJsonLayers.fellows_2012)
+                map.removeLayer(geoJsonLayers.fellows_2013)
+                map.removeLayer(geoJsonLayers.fellows_2014)
+
             }
             if (index == 1973) {
                 console.log(index)
