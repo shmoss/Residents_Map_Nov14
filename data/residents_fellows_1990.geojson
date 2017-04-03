@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1600 SW Archer Rd",
+        "info_city": "Gainesville",
+        "info_state": "FL",
+        "info_zip": 32610,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Deitte",
+        "info_maidenName": "",
+        "info_firstName": "Lori",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1990,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3484421,
+          29.6415482
+        ]
+      }
+    }
+  ]
+}

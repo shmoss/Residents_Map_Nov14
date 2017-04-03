@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1990 Connecticut Ave S",
+        "info_city": "Sartell",
+        "info_state": "MN",
+        "info_zip": 56377,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hartman",
+        "info_maidenName": "",
+        "info_firstName": "Leslie",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2008",
+        "info_residencyEnd": "6/30/2012",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "CentraCare Health, Regional Diagnostic Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2012,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2015302,
+          45.5935353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1000 Mineral Point Ave.",
+        "info_city": "Janesville",
+        "info_state": "WI",
+        "info_zip": 53548,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lee",
+        "info_maidenName": "",
+        "info_firstName": "Paul",
+        "info_middleName": "John",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2009",
+        "info_residencyEnd": "6/30/2013",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "Mercy Hospital and Trauma Center",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2013,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0325084,
+          42.6868106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "801 Ostrum Street",
+        "info_city": "Bethlehem",
+        "info_state": "PA",
+        "info_zip": 18015,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Stanley",
+        "info_maidenName": "",
+        "info_firstName": "Edwin",
+        "info_middleName": "C",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Vascular and Interventional Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2009",
+        "info_residencyEnd": "6/30/2013",
+        "info_fellowshipBegin": "7/1/2013",
+        "info_fellowshipEnd": "6/30/2014",
+        "info_institution": "St. Luke's University Hospital",
+        "info_position": "Interventional Radiology Provider",
+        "info_count": 1,
+        "info_resDate": 2013,
+        "info_felDate": 2014,
+        "info_date": 2014,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3935623,
+          40.6099243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2000 Spring Road",
+        "info_city": "Hinsdale",
+        "info_state": "IL",
+        "info_zip": 60523,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Rastogi",
+        "info_maidenName": "",
+        "info_firstName": "Ankit",
+        "info_middleName": "K",
+        "info_intern": "x",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Adventist Hospital System",
+        "info_position": "Teleradiology",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 2014,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.94832,
+          41.8514306
+        ]
+      }
+    }
+  ]
+}

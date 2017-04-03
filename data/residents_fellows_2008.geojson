@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5252 School House Road",
+        "info_city": "Bettendorff",
+        "info_state": "IA",
+        "info_zip": 52722,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Durick",
+        "info_maidenName": "",
+        "info_firstName": "Nathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "7/1/2007",
+        "info_fellowshipEnd": "6/30/2008",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 2008,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4501801,
+          41.5751762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3547 Humboldt Ave S",
+        "info_city": "Minneapolis",
+        "info_state": "MN",
+        "info_zip": 55408,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lee",
+        "info_maidenName": "",
+        "info_firstName": "Andrew",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2002",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "7/1/2007",
+        "info_fellowshipEnd": "6/30/2008",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 2008,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.30056,
+          44.9380913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "476 Rushmore Lane",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53711,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Lum",
+        "info_maidenName": "",
+        "info_firstName": "Darren",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MR, Cardiovascular Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4657898,
+          43.0573044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "N2101 Brecken Ridge",
+        "info_city": "LaCrosse",
+        "info_state": "WI",
+        "info_zip": 54601,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Riherd",
+        "info_maidenName": "",
+        "info_firstName": "Jody",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Gundersen-Lutheran Hopital",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 1900,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.100402,
+          43.797958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "4525 Park Commons Drive",
+        "info_city": "St. Louis Park",
+        "info_state": "MN",
+        "info_zip": 55416,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Schumacher",
+        "info_maidenName": "",
+        "info_firstName": "Clark",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "DVI, Interventional Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2003",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "7/1/2007",
+        "info_fellowshipEnd": "6/30/2008",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 2008,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.3377762,
+          44.9345512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "201 W Northland Ave",
+        "info_city": "Appleton",
+        "info_state": "WI",
+        "info_zip": 54911,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ziegert",
+        "info_maidenName": "",
+        "info_firstName": "Andrew",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2002",
+        "info_residencyEnd": "6/30/2007",
+        "info_fellowshipBegin": "7/1/2007",
+        "info_fellowshipEnd": "6/30/2008",
+        "info_institution": "Center for Diagnostic Imaging in Wisconsin",
+        "info_position": "Musculoskeletal Radiologist",
+        "info_count": 1,
+        "info_resDate": 2007,
+        "info_felDate": 2008,
+        "info_date": 2008,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4078598,
+          44.2867737
+        ]
+      }
+    }
+  ]
+}

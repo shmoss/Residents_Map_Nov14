@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "444 Montgomery St",
+        "info_city": "Chicopee",
+        "info_state": "MA",
+        "info_zip": 1020,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Austin",
+        "info_maidenName": "",
+        "info_firstName": "Charles",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "",
+        "info_residencyEnd": "",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Riverbend Medical Group",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 1900,
+        "info_felDate": 1900,
+        "info_date": 1982,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5863695,
+          42.1716468
+        ]
+      }
+    }
+  ]
+}

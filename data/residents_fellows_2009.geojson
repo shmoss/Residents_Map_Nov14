@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "6522 Odell St",
+        "info_city": "St. Louis",
+        "info_state": "MO",
+        "info_zip": 63139,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Garrett",
+        "info_maidenName": "",
+        "info_firstName": "Robert",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "7/1/2008",
+        "info_fellowshipEnd": "6/30/2009",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 2009,
+        "info_date": 2009,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2991028,
+          38.6094971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "W187 N4975 Heron Court",
+        "info_city": "Menomonee Falls",
+        "info_state": "WI",
+        "info_zip": "",
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Ullrick",
+        "info_maidenName": "",
+        "info_firstName": "Steven",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2004",
+        "info_residencyEnd": "6/30/2008",
+        "info_fellowshipBegin": "7/1/2008",
+        "info_fellowshipEnd": "6/30/2009",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2008,
+        "info_felDate": 2009,
+        "info_date": 2009,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.144561,
+          43.108127
+        ]
+      }
+    }
+  ]
+}

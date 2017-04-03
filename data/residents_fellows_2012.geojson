@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "3301 CRANBERRY BLVD",
+        "info_city": "Weston",
+        "info_state": "WI",
+        "info_zip": 54476,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Currie",
+        "info_maidenName": "",
+        "info_firstName": "Jonathan",
+        "info_middleName": "W",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Ministry Medical Group",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5815848,
+          44.8911855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2187 New Pinery Rd",
+        "info_city": "Portage",
+        "info_state": "WI",
+        "info_zip": 53901,
+        "info_country": "",
+        "info_notes": "cannot locate, NPI not updated since 2012, no forwarding info in TERMED",
+        "info_lastName": "Hain",
+        "info_maidenName": "",
+        "info_firstName": "Kendra",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2006",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Portage Radiology",
+        "info_position": "Private Practice, General Radiology",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4680724,
+          43.5564264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2941 South Ridge Rd",
+        "info_city": "Green Bay",
+        "info_state": "WI",
+        "info_zip": 54304,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hanson",
+        "info_maidenName": "",
+        "info_firstName": "Meghan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2006",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Green Bay Radiology",
+        "info_position": "General Radiology",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0876928,
+          44.4722366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "800 W. 5th Ave",
+        "info_city": "Spokane",
+        "info_state": "WA",
+        "info_zip": 99204,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "McEvoy",
+        "info_maidenName": "",
+        "info_firstName": "Jennifer",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "7/1/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Deaconess Hospital, Rockwood Health System",
+        "info_position": "Diagnostic Radiology",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.4232941,
+          47.6519051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "4801 Lang Ave NE",
+        "info_city": "Albuquerque",
+        "info_state": "NM",
+        "info_zip": 87109,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Webb",
+        "info_maidenName": "",
+        "info_firstName": "Heather",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2011",
+        "info_fellowshipBegin": "8/18/2011",
+        "info_fellowshipEnd": "6/30/2012",
+        "info_institution": "Zia Diagnostic Imaging",
+        "info_position": "Radiologist",
+        "info_count": 1,
+        "info_resDate": 2011,
+        "info_felDate": 2012,
+        "info_date": 2012,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5914459,
+          35.1737518
+        ]
+      }
+    }
+  ]
+}

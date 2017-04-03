@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "21 N Butler Street",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53703,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Shannahan",
+        "info_maidenName": "",
+        "info_firstName": "Sean",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1998",
+        "info_residencyEnd": "6/30/2003",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "St. Mary's / Dean Clinic",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2003,
+        "info_felDate": 1900,
+        "info_date": 2003,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3815613,
+          43.0773735
+        ]
+      }
+    }
+  ]
+}

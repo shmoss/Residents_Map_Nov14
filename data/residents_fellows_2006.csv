@@ -1,0 +1,4 @@
+info_latitude,info_longitude,info_address,info_city,info_state,info_zip,info_country,info_notes,info_lastName,info_maidenName,info_firstName,info_middleName,info_intern,info_resident,info_fellow,info_fellowshipSection,info_honoraryFellow,info_formerFaculty,info_facultySection,info_residencyBegin,info_residencyEnd,info_fellowshipBegin,info_fellowshipEnd,info_institution,info_position,info_count,info_resDate,info_felDate,info_date,info_status
+35.0959587,-106.5949707,4501 Altura Place NE,Albuquerque,NM,87110,,,Hebert,,Jeffrey,,,r,f,MSK,,,,7/1/2001,6/30/2006,,,,,1,2006,1900,2006,rf
+41.257198,-95.999061,5510 Harney St.,Omaha,NE,68132,,,Helvey,,Jason,,,r,f,Neuro,,,,7/1/2001,6/30/2006,,,"Radiology Associates, P.C.",Private Practice,1,2006,1900,2006,rf
+43.0613136,-89.4391403,334 Glenway Street,Madison,WI,53705,,,McCue,,Jeremy,,,r,f,Neuro,,,,7/1/1999,6/30/2006,,,,,1,2006,1900,2006,rf

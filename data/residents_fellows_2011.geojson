@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "333 N Commercial St",
+        "info_city": "Neenah",
+        "info_state": "WI",
+        "info_zip": 54956,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Alsheik",
+        "info_maidenName": "",
+        "info_firstName": "Nila",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2010",
+        "info_fellowshipBegin": "7/1/2010",
+        "info_fellowshipEnd": "6/30/2011",
+        "info_institution": "Fox Valley Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2010,
+        "info_felDate": 2011,
+        "info_date": 2011,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4566623,
+          44.1916995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1900 South Ave",
+        "info_city": "LaCrosse",
+        "info_state": "WI",
+        "info_zip": 54601,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Stanton",
+        "info_maidenName": "",
+        "info_firstName": "Paul",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2010",
+        "info_fellowshipBegin": "7/1/2010",
+        "info_fellowshipEnd": "6/30/2011",
+        "info_institution": "Gundersen Health",
+        "info_position": "Radiology",
+        "info_count": 1,
+        "info_resDate": 2010,
+        "info_felDate": 2011,
+        "info_date": 2011,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2460269,
+          43.7945656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "1000 N Oak Ave",
+        "info_city": "Marshfield",
+        "info_state": "WI",
+        "info_zip": 54449,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Zelinski",
+        "info_maidenName": "",
+        "info_firstName": "Nathan",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2010",
+        "info_fellowshipBegin": "7/1/2010",
+        "info_fellowshipEnd": "6/30/2011",
+        "info_institution": "Marshfield Clinic",
+        "info_position": "Radiology Body Imaging",
+        "info_count": 1,
+        "info_resDate": 2010,
+        "info_felDate": 2011,
+        "info_date": 2011,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.177948,
+          44.6785164
+        ]
+      }
+    }
+  ]
+}

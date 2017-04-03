@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "190 E Bannock St.",
+        "info_city": "Boise",
+        "info_state": "ID",
+        "info_zip": 83712,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Boyce",
+        "info_maidenName": "",
+        "info_firstName": "Cody",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "7/1/2010",
+        "info_institution": "Boise Radiology Group",
+        "info_position": "Body Imaging",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1925888,
+          43.6124039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "8791 Conference Dr",
+        "info_city": "Fort Meyers",
+        "info_state": "FL",
+        "info_zip": 33919,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Duffek",
+        "info_maidenName": "",
+        "info_firstName": "Cory",
+        "info_middleName": "C",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuroradiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9002304,
+          26.5548592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "500 W. Brown Deer Road",
+        "info_city": "Bayside",
+        "info_state": "WI",
+        "info_zip": 53217,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "O'Brien",
+        "info_maidenName": "",
+        "info_firstName": "Michael",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2005",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "Wisconsin Radiology Specialists",
+        "info_position": "Musculoskeletal",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9144745,
+          43.1777153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "7753 Mary Ellen Pl",
+        "info_city": "Wauwatosa",
+        "info_state": "WI",
+        "info_zip": 32176,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Olson",
+        "info_maidenName": "",
+        "info_firstName": "Erik",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2006",
+        "info_residencyEnd": "6/30/2010",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2010,
+        "info_felDate": 1900,
+        "info_date": 2010,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0101013,
+          43.0365562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5509 Mohawk Rd",
+        "info_city": "Rhinelander",
+        "info_state": "WI",
+        "info_zip": 54501,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Rutkowski",
+        "info_maidenName": "",
+        "info_firstName": "Anthony",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/24/2004",
+        "info_residencyEnd": "6/30/2009",
+        "info_fellowshipBegin": "7/1/2009",
+        "info_fellowshipEnd": "6/30/2010",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2009,
+        "info_felDate": 2010,
+        "info_date": 2010,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4307861,
+          45.6577187
+        ]
+      }
+    }
+  ]
+}

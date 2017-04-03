@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "4501 Altura Place NE",
+        "info_city": "Albuquerque",
+        "info_state": "NM",
+        "info_zip": 87110,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hebert",
+        "info_maidenName": "",
+        "info_firstName": "Jeffrey",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "MSK",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2001",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5949707,
+          35.0959587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "5510 Harney St.",
+        "info_city": "Omaha",
+        "info_state": "NE",
+        "info_zip": 68132,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Helvey",
+        "info_maidenName": "",
+        "info_firstName": "Jason",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2001",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "Radiology Associates, P.C.",
+        "info_position": "Private Practice",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.999061,
+          41.257198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "334 Glenway Street",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53705,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "McCue",
+        "info_maidenName": "",
+        "info_firstName": "Jeremy",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Neuro",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/1999",
+        "info_residencyEnd": "6/30/2006",
+        "info_fellowshipBegin": "",
+        "info_fellowshipEnd": "",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2006,
+        "info_felDate": 1900,
+        "info_date": 2006,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4391403,
+          43.0613136
+        ]
+      }
+    }
+  ]
+}

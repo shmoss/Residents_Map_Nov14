@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2941 South Ridge Rd",
+        "info_city": "Green Bay",
+        "info_state": "WI",
+        "info_zip": 54304,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Hanson",
+        "info_maidenName": "",
+        "info_firstName": "James",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Musculoskeletal Imaging and Intervention",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2012",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "Green Bay Radiology",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2012,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0866928,
+          44.4717366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "P.O. Box 44428",
+        "info_city": "Madison",
+        "info_state": "WI",
+        "info_zip": 53744,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Klein",
+        "info_maidenName": "",
+        "info_firstName": "Jeffrey",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2008",
+        "info_residencyEnd": "6/30/2012",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "Madison Radiologists",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2012,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.415066,
+          43.0657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "920 Country Club Rd ",
+        "info_city": "Eugene",
+        "info_state": "OR",
+        "info_zip": 97401,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Simard",
+        "info_maidenName": "",
+        "info_firstName": "Marissa",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Abdominal Imaging",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "6/2/2008",
+        "info_residencyEnd": "6/30/2012",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2012,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0976944,
+          44.0660133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "info_address": "2622 Old Hickory Way",
+        "info_city": "Boise",
+        "info_state": "ID",
+        "info_zip": 83716,
+        "info_country": "",
+        "info_notes": "",
+        "info_lastName": "Sonntag",
+        "info_maidenName": "",
+        "info_firstName": "P. David",
+        "info_middleName": "",
+        "info_intern": "",
+        "info_resident": "r",
+        "info_fellow": "f",
+        "info_fellowshipSection": "Interventional Radiology",
+        "info_honoraryFellow": "",
+        "info_formerFaculty": "",
+        "info_facultySection": "",
+        "info_residencyBegin": "7/1/2007",
+        "info_residencyEnd": "6/30/2012",
+        "info_fellowshipBegin": "7/1/2012",
+        "info_fellowshipEnd": "6/30/2013",
+        "info_institution": "",
+        "info_position": "",
+        "info_count": 1,
+        "info_resDate": 2012,
+        "info_felDate": 2013,
+        "info_date": 2013,
+        "info_status": "rf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.1313553,
+          43.5783463
+        ]
+      }
+    }
+  ]
+}
